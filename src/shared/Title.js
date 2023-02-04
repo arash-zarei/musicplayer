@@ -1,6 +1,10 @@
 import React from 'react';
 
+
+// mui
 import { Typography } from '@mui/material';
+
+// ReactRouterDOM
 import {Link} from 'react-router-dom';
 
 const Title = ({title, path, link}) => {

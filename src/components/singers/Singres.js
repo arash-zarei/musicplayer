@@ -1,8 +1,15 @@
 import React from "react";
 
+// mui
 import { Grid } from "@mui/material";
+
+// Apollo
 import { useQuery } from "@apollo/client";
+
+// Queris
 import { GET_ARTISTS } from "../../graphql/queris";
+
+// Components
 import Singer from "./Singer";
 import Loader from "../../shared/Loader";
 

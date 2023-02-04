@@ -1,5 +1,6 @@
 import React from "react";
 
+// Loader
 import { Bars } from "react-loader-spinner";
 
 const Loader = () => {

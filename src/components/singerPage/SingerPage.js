@@ -1,11 +1,22 @@
 import React from "react";
 
+// Sanitizer
 import sanitizeHtml from "sanitize-html";
+
+// mui
 import { Box, Container, Grid, Typography } from "@mui/material";
 import ArrowBackRoundedIcon from "@mui/icons-material/ArrowBackRounded";
+
+// ReactRouterDOM
 import { useNavigate, useParams } from "react-router-dom";
+
+// Queris
 import { GET_ARTIST } from "../../graphql/queris";
+
+// Apollo
 import { useQuery } from "@apollo/client";
+
+// Components
 import Loader from "../../shared/Loader";
 import Music from "../../shared/Music";
 

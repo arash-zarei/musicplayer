@@ -1,4 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
+
+// mui
 import { styled, useTheme } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -6,7 +8,11 @@ import IconButton from "@mui/material/IconButton";
 import PauseRounded from "@mui/icons-material/PauseRounded";
 import PlayArrowRounded from "@mui/icons-material/PlayArrowRounded";
 import { Container } from "@mui/material";
+
+// Loader
 import { Oval } from "react-loader-spinner";
+
+// ReactRouterDOM
 import { useLocation } from "react-router-dom";
 
 const Widget = styled("div")(({ theme }) => ({

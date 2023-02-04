@@ -1,10 +1,19 @@
 import React from "react";
 
+// ReactRouterDOM
 import { useNavigate, useParams } from "react-router-dom";
+
+// mui
 import { Container, Grid, Typography } from "@mui/material";
 import ArrowBackRoundedIcon from "@mui/icons-material/ArrowBackRounded";
+
+// Apollo
 import { useQuery } from "@apollo/client";
+
+// Queris
 import { GET_ALL_MISICS } from "../../graphql/queris";
+
+// Components
 import Loader from "../../shared/Loader";
 import Musics from "./Musics";
 import MusicPlayer from "../musicPlayer/MusicPlayer";

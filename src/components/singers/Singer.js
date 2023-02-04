@@ -1,7 +1,12 @@
-import { Box, Card, CardMedia, Typography } from "@mui/material";
 import React from "react";
 
+// mui
+import { Box, Card, CardMedia, Typography } from "@mui/material";
+
+// Icons
 import { AiOutlineArrowRight } from "react-icons/ai";
+
+// ReactRouterDOM
 import { Link } from "react-router-dom";
 
 const Singer = ({ data }) => {

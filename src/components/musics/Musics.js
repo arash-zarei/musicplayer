@@ -1,9 +1,16 @@
 import React from "react";
 
+// mui
 import { Grid } from "@mui/material";
 
+// Apollo
 import { useQuery } from "@apollo/client";
+
+// Queris
+
 import { GET_LIMIT_MUSIC } from "../../graphql/queris";
+
+// Components
 import Loader from "../../shared/Loader";
 import Music from "../../shared/Music";
 

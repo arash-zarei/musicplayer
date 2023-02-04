@@ -1,8 +1,14 @@
-import * as React from "react";
+import React,{ useState } from "react";
+
+// Mui
 import IconButton from "@mui/material/IconButton";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
+
+// Icons
 import { AiOutlineMore } from "react-icons/ai";
+
+// ReactRouterDOM
 import { Link } from "react-router-dom";
 
 const options = [
@@ -12,8 +18,8 @@ const options = [
 
 const ITEM_HEIGHT = 48;
 
-export default function LongMenu() {
-  const [anchorEl, setAnchorEl] = React.useState(null);
+const LongMenu = () => {
+  const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -61,3 +67,5 @@ export default function LongMenu() {
     </div>
   );
 }
+
+export default LongMenu;
