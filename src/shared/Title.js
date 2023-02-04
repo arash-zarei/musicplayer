@@ -15,6 +15,8 @@ const Title = ({title, path, link}) => {
             display="flex"
             justifyContent="space-between"
             alignItems="center"
+            flexDirection="row-reverse"
+            dir='rtl'
             gap={3}
             color="#fff"
           >
